@@ -1,0 +1,29 @@
+.btn
+{
+    border-radius: 25px !important;
+}
+.btn-primary{
+    border-radius: 20px;
+}
+
+.nav-link{
+    color: white;
+}
+
+#grad1 {
+
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #990033, #6600cc);
+}
+
+#g {
+    color: rgb(1, 1, 145);
+    margin-left: 0px;
+    margin-left: -12px;
+    background-color: #c1bfbf;
+}
+
+#col {
+    color: white;
+}
