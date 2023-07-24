@@ -32,7 +32,7 @@ function NewStatement() {
 
 
         // axios.get('http://localhost:8080/api/v1/auth/getTransaction', { headers: { 'Authorization': 'Bearer ' + info } })
-            axios.get('http://54.193.178.5:8080/api/v1/auth/getTransaction', { headers: { 'Authorization': 'Bearer ' + info } })
+            axios.get('http://18.216.136.242:31444/api/v1/auth/getTransaction', { headers: { 'Authorization': 'Bearer ' + info } })
             .then((res) => {
                 const data = res.data;
 
@@ -76,7 +76,7 @@ function NewStatement() {
             }
 
             // axios.post('http://localhost:8080/api/v1/auth/byDateBetween', dts, { headers: { 'Authorization': 'Bearer ' + info } })
-            // axios.post('http://54.183.245.156:8080/api/v1/auth/byDateBetween', dts, { headers: { 'Authorization': 'Bearer ' + info } })
+               axios.post('http://18.216.136.242:31444/api/v1/auth/byDateBetween', dts, { headers: { 'Authorization': 'Bearer ' + info } })
             axios.post('https://vishnusudarshana.vertextechnosys.com/api/byDateBetween',dts,{headers:{'Access-Control-Allow-Origin' : '*',
         'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS'}})
                 .then((res) => {
@@ -109,7 +109,7 @@ function NewStatement() {
             console.log(dts)
 
             // axios.post('http://localhost:8080/api/v1/auth/byDateBetween', dts, { headers: { 'Authorization': 'Bearer ' + info } })
-            // axios.post('http://54.183.245.156:8080/api/v1/auth/byDateBetween', dts, { headers: { 'Authorization': 'Bearer ' + info } })
+               axios.post('http://18.216.136.242:31444/api/v1/auth/byDateBetween', dts, { headers: { 'Authorization': 'Bearer ' + info } })
             axios.post('https://vishnusudarshana.vertextechnosys.com/api/byDateBetween',dts,{headers:{'Access-Control-Allow-Origin' : '*',
             'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS'}})
                 .then((res) => {

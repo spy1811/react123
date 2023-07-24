@@ -34,7 +34,7 @@ function Authenticate() {
         }
         
         // axios.post("http://localhost:8080/api/v1/auth/authenticate", data)
-        axios.post("http://18.223.182.139:31301/api/v1/auth/authenticate", data)
+        axios.post("http://18.216.136.242:31444/api/v1/auth/authenticate", data)
         // axios.post('https://vishnusudarshana.vertextechnosys.com/api/login',data)
             .then((res) => {
                 // console.log(res.data);
